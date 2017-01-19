@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="SUNDER"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>SHOW THE BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE OUTSTANDING RESTAURANT IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE PERFECT RESTAURANT IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE BEST IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL THE BEST IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL ME THE OPTIMUM RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL A BEST RATED RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW A TOP QUALITY RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern> A BEST RESTAURANT IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST TOP GRADED RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME ALL THE RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME  THE RESTAURANTS IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+
+<category>
+<pattern>SHOW THE LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>DISPLAY THE LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>PROJECT THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU LIST THE  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>CAN I GET THE LIST  OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU DISPLAY  LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  SOME BUDGET RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE UNCOSTLY RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE MEAGER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE LOW PRICED RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE RESONABLE RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST ME THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>DISPLAY THE CHEAPEST  RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT  THE ECONOMICAL RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE NOMINAL RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+
+
+<category>
+<pattern>HIGH PRICED RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+
+
+<pattern>TELL ME ABOUT  THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE HIGH PRICED RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE PREMIUM RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE EXTRAVAGANT RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE FANCY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU TELL ME ABOUT  THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SUGGEST ME ABOUT COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>DISPLAY THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+
+<!-- I Have TO Design For This -->
+
+<category>
+<pattern>WHAT IS THE COST OF  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE PRICE OF  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE RATE OF  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE AMOUNT THAT HAS TO BE PAID FOR  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE ESTIMATED PRICE FOR  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+
+
+<category>
+<pattern>LIST ME THE VEGETARIAN RESTAURANT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEGETARIAN RESTAURANT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE VEG RESTAURANT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEG RESTAURANT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE VEG RESTAURANT IN IT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEG RESTAURANT IN IT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEGETARIAN RESTAURANT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEG RESTAURANT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEG RESTAURANT IN IT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEG RESTAURANT IN IT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEGETARIAN RESTAURANT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+
+<category>
+<pattern>SHOW ME THE BEST NON VEG RESTAURANT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEG RESTAURANT IN IT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+
+
+
+
+
+
+
+<!-- Interaction with maps pattern will be declared here -->
+
+
+
+<category>
+<pattern>SHOW THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+
+<category>
+<pattern>DISPLAY THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>GUIDE ME ABOUT THE BEST RESTAURANT THROUGH  MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>MAP THE BEST RESTAURANT</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>PROJECT THE BEST RESTAURANT THROUGH MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>CAN YOU SHOW ME THE BEST RESTAURANT IN MAP</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>CAN I SEE THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>RECOMEND THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>CAN I GET TO KNOW THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>SHARE ME ABOUT THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+
+<category>
+<pattern>SHOW THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>DISPLAY THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>MAP  THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>PROJECT  THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>CAN YOU SHOW ME THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>CAN I SEE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>RECOMEND THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>CAN I KNOW ABOUT  THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>SHARE WITH ME ABOUT  THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+
+<category>
+<pattern>LET ME KNOW ABOUT THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+
+<category>
+<pattern>SHOW ME THE LIST OF ALL THE RESTAURANTS IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE LIST OF AVAILABLE RESTAURANTS IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>TELL THE LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>DISPLAY THE LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>PROJECT THE LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU  LIST THE RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>CAN I GET THE LIST OF RESTAURANTS IN MAPS </pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU DISPLAY  LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>DISPLAY THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>MAP THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>PROJECT THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>CAN I SEE THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>RECOMEND THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>CAN I KNOW ABOUT THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>LET ME KNOW ABOUT THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+<category>
+<pattern>SHARE WITH ME ABOUT THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+
+</aiml>
